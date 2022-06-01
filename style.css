@@ -1,0 +1,106 @@
+input[type=text], input[type=password] {
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  /* padding-left: 40px; */
+  border-radius: 6px;
+  font-family: Helvetica;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  width: 300px;
+}
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #33ACFF;
+  border: none;
+  color: white;
+  /* padding: 16px 32px; */
+  text-decoration: none;
+  margin: 4px 2px;
+  font-family: Helvetica;
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  width: 300px;
+}
+input[type=submit]:hover {
+  background-color: #3371FF;
+}
+
+.header {
+  text-align: center;
+  padding: 10px;
+}
+
+.div1 {
+  width: 300px;
+  height: 300px;
+  box-sizing: border-box;
+}
+
+.div2 {
+  width: 650px;
+  height: 650px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: white;
+  font-family: Helvetica;
+  font-size: 60px;
+  text-align: center;
+}
+
+p {
+  color: white;
+  font-family: Helvetica;
+  font-size: 24px;
+  text-align: center;
+}
+
+button {
+	background-color: #33ACFF;
+  border: none;
+  color: white;
+  /* padding: 16px 32px; */
+  text-decoration: none;
+  margin: 4px 2px;
+  font-family: Helvetica;
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  width: 300px;
+}
+button:hover {
+  background-color: #3371FF;
+}
+
+#resultats {
+  font-family: Helvetica;
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 10px;
+}
+
+#resultats td, #resultats th {
+  border: 1px solid #393939;
+  padding: 8px;
+}
+
+#jeu {
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 20px;
+}
+
+#jeu td, #jeu th {
+  border: 1px solid #303030;
+  /* padding: 8px; */
+  /* border-radius: 20px; */
+}
